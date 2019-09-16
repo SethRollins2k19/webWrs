@@ -1,0 +1,87 @@
+/*@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans&display=swap');
+*/
+li {
+	list-style: none;
+}
+body{
+	text-align: center;
+}
+.container{
+	max-width: 2000px;
+	margin: 0px auto;
+}
+.anchor{
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.4)
+}
+.anchor:hover {
+	border-bottom: 1px solid black;
+	color: black;
+}
+.nav-list-item{
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px; 
+}
+.nav-ul {
+	padding-right: 100px;
+}
+
+.header-nav {
+	background-color: rgba(229,230,230,0.5);
+	padding-top: 14px;
+	padding-bottom: 8px;
+}
+header {
+	padding-bottom: 589px;
+	background: url("../files/bgimg.png") 100% no-repeat white;
+
+}
+.img-header {
+	position: relative;
+	right: 27px;
+	top: 147px;
+}
+
+.discographi {
+	background:white;
+	
+}
+.discographi-img {
+	padding-top: 200px;
+}
+
+.disc-h1 {
+	text-align: center;
+	background-color: url("../files/discograph.png");
+	text-transform: uppercase;
+}
+
+.disc-p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+}
+.disc-hr{
+	position: relative;
+	bottom: 40px;
+	border: none;
+	height: 1px;
+	color: black;
+	background-color: black;
+	width: 30%;	
+}
+.main-div{
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding: 50px;
+	vertical-align: top;
+}
+.main-div p {
+	text-align: left
+}
+
+
